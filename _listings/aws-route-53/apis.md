@@ -25,11 +25,25 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Last
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/last/master/_listings/aws-route-53/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Route 53 API - Get Health Check Last Failure Reason
+  x-api-slug: 20130401healthcheckhealthcheckidlastfailurereason-get
+  description: If you want to learn why a health check is currently failing or why
+    it failed mostrecently (if at all), you can get the failure reason for the most
+    recent failure. Send aGET request to the /Amazon Route 53 APIversion/healthcheck/health
+    checkID/lastfailurereason resource.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
+  humanURL: https://aws.amazon.com/route53/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, API Service Provider, API Service Provider, API
+    Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/last/master/_listings/aws-route-53/20130401healthcheckhealthcheckidlastfailurereason-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.rekognition.api.gallery.streamdata.io
